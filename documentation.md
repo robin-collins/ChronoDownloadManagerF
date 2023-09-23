@@ -2,6 +2,7 @@
 
 ## Important Javascript files
 
+./manifest.json
 ./ui/wk.js
 ./ui/ui.min.js
 ./ui/options.min.js
@@ -10,7 +11,6 @@
 ./com/taskdlg.min.js
 ./pop/sniffer.min.js
 ./pop/pop.min.js
-./libs/jquery-2.1.0.min.js
 ./libs/mdl/mdc2.js
 ./bg/bg.min.js
 
@@ -33,6 +33,83 @@
 ./pop/pop.htm
 ./pop/sniffer.htm
 ./bg/bg.htm
+
+## Individual File documentation
+
+### ./about/en.htm
+
+
+### ./bg/bg.htm
+
+
+### ./bg/bg.min.js
+
+
+### ./com/taskdlg.htm
+
+
+### ./com/taskdlg.min.css
+
+
+### ./com/taskdlg.min.js
+
+
+### ./cs/main.js
+
+
+### ./cs/sniffer.js
+
+
+### ./help/en.htm
+
+
+### ./libs/mdl/material.indigo-lime.min.css
+
+
+### ./libs/mdl/mdc2.js
+
+
+### ./manifest.json
+
+
+### ./pop/pop.htm
+
+
+### ./pop/pop.min.css
+
+
+### ./pop/pop.min.js
+
+
+### ./pop/sniffer.htm
+
+
+### ./pop/sniffer.min.css 
+
+
+### ./pop/sniffer.min.js
+
+
+### ./ui/index.htm
+
+
+### ./ui/options.htm
+
+
+### ./ui/options.min.css
+
+
+### ./ui/options.min.js
+
+
+### ./ui/ui.min.css
+
+
+### ./ui/ui.min.js
+
+
+### ./ui/wk.js
+
 
 ## File Tree
 
