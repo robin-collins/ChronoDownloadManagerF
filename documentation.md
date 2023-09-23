@@ -44,6 +44,7 @@
 
 ### ./bg/bg.min.js
 
+This file is a minified JavaScript file that is used in the background process of the application. It contains various functions and classes that handle different tasks such as database operations, task management, and communication with the UI. The file does not directly import any dependencies.
 
 ### ./com/taskdlg.htm
 
@@ -71,6 +72,29 @@
 
 ### ./manifest.json
 
+The manifest.json file is a configuration file that provides important information about the application to the Chrome browser. It includes fields such as the application's name, version, permissions, and more.
+
+Here is a detailed explanation of each field:
+
+- update_url: This field specifies the URL where the browser can check for updates to the application.
+- manifest_version: This field specifies the version of the manifest file format.
+- name: This field specifies the name of the application.
+- short_name: This field specifies a shorter name for the application that can be used where space is limited.
+- version: This field specifies the version of the application.
+- description: This field provides a brief description of the application.
+- icons: This field specifies the icons that should be used for the application in various contexts.
+- default_locale: This field specifies the default locale for the application.
+- minimum_chrome_version: This field specifies the minimum version of Chrome that the application requires.
+- offline_enabled: This field indicates whether the application can work offline.
+- homepage_url: This field specifies the URL of the application's homepage.
+- externally_connectable: This field specifies the IDs of other extensions that the application can communicate with.
+- permissions: This field specifies the permissions that the application requires.
+- background: This field specifies the background page for the application.
+- browser_action: This field specifies the default title, icon, and popup for the browser action.
+- options_ui: This field specifies the options page for the application.
+- content_scripts: This field specifies the content scripts that the application should inject into web pages.
+- web_accessible_resources: This field specifies the resources that web pages can access.
+- content_security_policy: This field specifies the content security policy for the application.
 
 ### ./pop/pop.htm
 
@@ -112,6 +136,10 @@
 
 
 ## File Tree
+
+
+
+```tree.txt
 
 .
 ├── about
@@ -348,4 +376,4 @@
     ├── ui.min.js
     └── wk.js
 
-75 directories, 159 files
+```
